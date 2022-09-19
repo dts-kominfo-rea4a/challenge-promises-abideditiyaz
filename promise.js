@@ -28,9 +28,9 @@ const promiseOutput = (inputData) => {
 
           // pengkondisian
           if (inputData === isiDataGabungan[0]) {
-            resolve(`Jumlah pengungjung yang ${inputData} adalah ${itungIsiDataSama.marah}`)
+            resolve(itungIsiDataSama.marah)
           }else{
-            resolve(`Jumlah pengunjung yang ${inputData} adalah ${itungIsiDataSama.marah -2}`)
+            resolve(itungIsiDataSama.marah -2)
           }
           // console.log(itungIsiDataSama)
         })
